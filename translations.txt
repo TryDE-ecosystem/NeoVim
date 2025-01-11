@@ -1,0 +1,45 @@
+-- DARK --
+catppuccin-mocha = try-turtle
+try-mocha = try-turtle
+try-turtle = try-turtle
+catppuccin-turtle = try-turtle
+
+catppuccin-macchiato = try-ant
+try-macchiato = try-ant
+try-ant = try-ant
+catppuccin-ant = try-ant
+
+-- LIGHT --
+
+catppuccin-latte = try-beaver
+try-latte = try-beaver
+try-beaver = try-beaver
+catppuccin-beaver = try-beaver
+
+catppuccin-frappe = try-honeybee
+try-frappe = try-honeybee
+try-honeybee = try-honeybee
+catppuccin-honeybee = try-honeybee
+
+Need to edit
+
+./
+	autoload/
+		airline
+			themes
+				try.vim
+	doc/
+		try.txt
+	lua/
+		try/
+			groups/
+				integrations/
+					leap.lua
+					lightspeed.lua
+					notify.lua
+					treesitter.lua
+			lib/
+				mapper.lua
+			utils/
+				colors.lua
+			types.lua
