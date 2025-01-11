@@ -8,7 +8,7 @@ Table of Contents                               *try-table-of-contents*
 3. Usage                                                    |try-usage|
 4. Configuration                                    |try-configuration|
 5. Customize highlights                      |try-customize-highlights|
-  - Get try colors|catppuccin-customize-highlights-get-catppuccin-colors|
+  - Get try colors|try-customize-highlights-get-try-colors|
   - Overwriting colors    |try-customize-highlights-overwriting-colors|
   - Overwriting highlight groups|try-customize-highlights-overwriting-highlight-groups|
 6. Integrations                                      |try-integrations|
@@ -24,9 +24,9 @@ Table of Contents                               *try-table-of-contents*
 
 - Supports both vim and neovim (Requires neovim <https://github.com/neovim/neovim/> >= 0.8 or vim <https://github.com/vim/vim> >= 9 compiled with lua <https://github.com/lua/lua> >= 5.1)
 - Highly configurable with 4 different flavours and ability to create your own! <https://github.com/try/nvim/discussions/323>
-- Compile <https://github.com/try/nvim#Compile> user config for fastest startuptime <https://www.reddit.com/r/neovim/comments/xxfpt3/catppuccinnvim_now_startup_in_1ms/>
+- Compile <https://github.com/try/nvim#Compile> user config for fastest startuptime <https://www.reddit.com/r/neovim/comments/xxfpt3/trynvim_now_startup_in_1ms/>
 - Integrations with lsp, treesitter and a bunch of plugins <https://github.com/try/nvim#integrations>
-- Supports for many other applications <https://github.com/try/catppuccin>
+- Supports for many other applications <https://github.com/try/try>
 
 
 ==============================================================================
@@ -35,26 +35,26 @@ Table of Contents                               *try-table-of-contents*
 lazy.nvim <https://github.com/folke/lazy.nvim>
 
 >lua
-    { "try/nvim", name = "catppuccin", priority = 1000 }
+    { "try/nvim", name = "try", priority = 1000 }
 <
 
 mini.deps
 <https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-deps.md>
 
 >lua
-    add({ source = "try/nvim", name = "catppuccin" })
+    add({ source = "try/nvim", name = "try" })
 <
 
 packer.nvim <https://github.com/wbthomason/packer.nvim>
 
 >lua
-    use { "try/nvim", as = "catppuccin" }
+    use { "try/nvim", as = "try" }
 <
 
 vim-plug <https://github.com/junegunn/vim-plug>
 
 >vim
-    Plug 'try/nvim', { 'as': 'catppuccin' }
+    Plug 'try/nvim', { 'as': 'try' }
 <
 
 
@@ -62,7 +62,7 @@ vim-plug <https://github.com/junegunn/vim-plug>
 3. Usage                                                    *try-usage*
 
 >vim
-    colorscheme try " catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
+    colorscheme try " try-latte, try-frappe, try-macchiato, try-mocha
 <
 
 >lua
@@ -135,7 +135,7 @@ options and settings.
 5. Customize highlights                      *try-customize-highlights*
 
 
-GET CATPPUCCIN COLORS  *try-customize-highlights-get-catppuccin-colors*
+GET CATPPUCCIN COLORS  *try-customize-highlights-get-try-colors*
 
 >lua
     local latte = require("try.palettes").get_palette "latte"
@@ -173,7 +173,7 @@ https://github.com/try/nvim/discussions/323 for inspirations:
 
 
   [!Note] For more information check out our style-guide
-  <https://github.com/try/catppuccin/blob/main/docs/style-guide.md>
+  <https://github.com/try/try/blob/main/docs/style-guide.md>
 
 OVERWRITING HIGHLIGHT GROUPS*try-customize-highlights-overwriting-highlight-groups*
 
@@ -232,7 +232,7 @@ example:
 ==============================================================================
 6. Integrations                                      *try-integrations*
 
-Catppuccin provides theme support for other plugins in the Neovim ecosystem and
+Try provides theme support for other plugins in the Neovim ecosystem and
 extended Neovim functionality through _integrations_.
 
 To enable/disable an integration you just need to set it to true/false, for
@@ -268,8 +268,8 @@ module.
 
 
   [!Important] If you’d like to know which highlight groups are being affected
-  by try, check out this directory: `lua/catppuccin/groups/integrations/`
-  <https://github.com/try/nvim/tree/main/lua/catppuccin/groups/integrations>.
+  by try, check out this directory: `lua/try/groups/integrations/`
+  <https://github.com/try/nvim/tree/main/lua/try/groups/integrations>.
 PluginDefaultaerial.nvim>lua
     aerial = false
 <
@@ -297,7 +297,7 @@ Use this to set it up:
 
 >lua
     require("barbecue").setup {
-      theme = "try", -- catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
+      theme = "try", -- try-latte, try-frappe, try-macchiato, try-mocha
     }
 <
 
@@ -311,7 +311,7 @@ blink.cmp>lua
 
 bufferline.nvimSpecial ~
 
-Update your bufferline config to use the Catppuccin components:
+Update your bufferline config to use the Try components:
 
 
   [!NOTE] bufferline needs to be loaded after setting up try or it will
@@ -416,7 +416,7 @@ dropbar.nvim>lua
 
 feline.nvimSpecial ~
 
-Update your Feline config to use the Catppuccin components:
+Update your Feline config to use the Try components:
 
 >lua
     local ctp_feline = require('try.groups.integrations.feline')
@@ -810,7 +810,7 @@ Here is how you can use them.
 
 >lua
     require('reactive').setup {
-      load = { 'try-mocha-cursor', 'catppuccin-mocha-cursorline' }
+      load = { 'try-mocha-cursor', 'try-mocha-cursorline' }
     }
 <
 
@@ -898,8 +898,8 @@ which-key.nvim>lua
 
   **Important** As of 7/10/2022, try should be able to automatically
   recompile when the setup table changed.
-Catppuccin is a highly customizable and configurable colorscheme. This does
-however come at the cost of complexity and execution time. Catppuccin can pre
+Try is a highly customizable and configurable colorscheme. This does
+however come at the cost of complexity and execution time. Try can pre
 compute the results of your configuration and store the results in a compiled
 lua file. We use these precached values to set it’s highlights.
 
@@ -933,7 +933,7 @@ Please disable `additional_vim_regex_highlighting`
 
 COLORS DOESN’T MATCH PREVIEW SCREENSHOTS*try-faq-colors-doesn’t-match-preview-screenshots*
 
-Catppuccin requires true color support AKA terminals support the full range of
+Try requires true color support AKA terminals support the full range of
 16 million colors
 
 - Supported: iterm2 (macOS), kitty, wezterm, alacritty, tmux, …
@@ -957,8 +957,8 @@ FOR TMUX USERS ~
 ==============================================================================
 9. Thanks to                                            *try-thanks-to*
 
-- The Catppuccin Community <https://github.com/catppuccin>
--- These people helped at the Catppuccin theme --
+- The Try Community <https://github.com/try>
+-- These people helped at the Try theme --
     - Pocco81 <https://github.com/Pocco81>
     - nullchilly <https://github.com/nullchilly>
 

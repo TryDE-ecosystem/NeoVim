@@ -66,7 +66,7 @@ let g:colors_name = "try-%s"]=],
 	if vim.fn.isdirectory(O.compile_path) == 0 then vim.fn.mkdir(O.compile_path, "p") end
 	local ls = loadstring or load
 
-	if vim.g.catppuccin_debug then -- Debugging purpose
+	if vim.g.try_debug then -- Debugging purpose
 		local deb = io.open(O.compile_path .. path_sep .. flavour .. ".lua", "wb")
 		if deb then
 			deb:write(table.concat(lines, "\n"))
