@@ -60,7 +60,7 @@ describe("respect setup flavour =", function()
 	it("beaver", function()
 		require("try").setup { flavour = "beaver" }
 		vim.cmd.colorscheme "try"
-		assert.equals("try-latte", vim.g.colors_name)
+		assert.equals("try-beaver", vim.g.colors_name)
 	end)
 	it("honeybee", function()
 		require("try").setup { flavour = "honeybee" }

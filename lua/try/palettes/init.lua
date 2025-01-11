@@ -1,7 +1,7 @@
 local M = {}
 
 function M.get_palette(flavour)
-	local flvr = flavour or require("try").flavour or vim.g.try_flavour or "mocha"
+	local flvr = flavour or require("try").flavour or vim.g.try_flavour or "turtle"
 	local _, palette = pcall(require, "try.palettes." .. flvr)
 	local O = require("try").options
 	local ans = vim.tbl_deep_extend("keep", O.color_overrides.all or {}, O.color_overrides[flvr] or {}, palette or {})

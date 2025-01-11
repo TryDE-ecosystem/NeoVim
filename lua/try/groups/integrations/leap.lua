@@ -9,7 +9,7 @@ function M.get()
 		LeapLabel = {
 			fg = O.transparent_background and C.green or U.vary_color({ beaver = "#222222" }, C.base),
 			bg = O.transparent_background and C.none
-				or U.vary_color({ latte = U.brighten(C.red, 0.4) }, U.brighten(C.green, 0.3)),
+				or U.vary_color({ beaver = U.brighten(C.red, 0.4) }, U.brighten(C.green, 0.3)),
 			style = { "nocombine", O.transparent_background and "bold" or nil },
 		},
 		LeapBackdrop = { fg = O.transparent_background and C.overlay0 or C.none },

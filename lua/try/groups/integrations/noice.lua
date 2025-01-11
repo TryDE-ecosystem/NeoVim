@@ -17,7 +17,7 @@ function M.get()
 		},
 		NoiceFormatProgressTodo = {
 			bg = O.transparent_background and C.none
-				or U.vary_color({ latte = U.lighten(C.mantle, 0.70, C.base) }, U.darken(C.surface0, 0.64, C.base)),
+				or U.vary_color({ beaver = U.lighten(C.mantle, 0.70, C.base) }, U.darken(C.surface0, 0.64, C.base)),
 			fg = C.subtext0,
 		},
 	}

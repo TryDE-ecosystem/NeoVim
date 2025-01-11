@@ -62,7 +62,7 @@ vim-plug <https://github.com/junegunn/vim-plug>
 3. Usage                                                    *try-usage*
 
 >vim
-    colorscheme try " try-latte, try-frappe, try-macchiato, try-mocha
+    colorscheme try " try-beaver, try-honeybee, try-ant, try-turtle
 <
 
 >lua
@@ -78,10 +78,10 @@ options and settings.
 
 >lua
     require("try").setup({
-        flavour = "auto", -- latte, frappe, macchiato, mocha
+        flavour = "auto", -- beaver, honeybee, ant, turtle
         background = { -- :h background
-            light = "latte",
-            dark = "mocha",
+            light = "beaver",
+            dark = "turtle",
         },
         transparent_background = false, -- disables setting the background color.
         show_end_of_buffer = false, -- shows the '~' characters after the end of buffers
@@ -138,10 +138,10 @@ options and settings.
 GET CATPPUCCIN COLORS  *try-customize-highlights-get-try-colors*
 
 >lua
-    local latte = require("try.palettes").get_palette "latte"
-    local frappe = require("try.palettes").get_palette "frappe"
-    local macchiato = require("try.palettes").get_palette "macchiato"
-    local mocha = require("try.palettes").get_palette "mocha"
+    local beaver = require("try.palettes").get_palette "beaver"
+    local honeybee = require("try.palettes").get_palette "honeybee"
+    local ant = require("try.palettes").get_palette "ant"
+    local turtle = require("try.palettes").get_palette "turtle"
 <
 
 Returns a table where the key is the name of the color and the value is its hex
@@ -159,14 +159,14 @@ https://github.com/try/nvim/discussions/323 for inspirations:
             all = {
                 text = "#ffffff",
             },
-            latte = {
+            beaver = {
                 base = "#ff0000",
                 mantle = "#242424",
                 crust = "#474747",
             },
-            frappe = {},
-            macchiato = {},
-            mocha = {},
+            honeybee = {},
+            ant = {},
+            turtle = {},
         }
     }
 <
@@ -204,24 +204,24 @@ example:
                     CmpBorder = { fg = "#3e4145" },
                 }
             end,
-            latte = function(latte)
+            beaver = function(beaver)
                 return {
-                    Normal = { fg = latte.base },
+                    Normal = { fg = beaver.base },
                 }
             end,
-            frappe = function(frappe)
+            honeybee = function(honeybee)
                 return {
-                    ["@comment"] = { fg = frappe.surface2, style = { "italic" } },
+                    ["@comment"] = { fg = honeybee.surface2, style = { "italic" } },
                 }
             end,
-            macchiato = function(macchiato)
+            ant = function(ant)
                 return {
-                    LineNr = { fg = macchiato.overlay1 },
+                    LineNr = { fg = ant.overlay1 },
                 }
             end,
-            mocha = function(mocha)
+            turtle = function(turtle)
                 return {
-                    Comment = { fg = mocha.flamingo },
+                    Comment = { fg = turtle.flamingo },
                 }
             end,
         },
@@ -297,7 +297,7 @@ Use this to set it up:
 
 >lua
     require("barbecue").setup {
-      theme = "try", -- try-latte, try-frappe, try-macchiato, try-mocha
+      theme = "try", -- try-beaver, try-honeybee, try-ant, try-turtle
     }
 <
 
@@ -331,7 +331,7 @@ Configurations are self-explanatory, see |bufferline-highlights| for detailed
 explanations:
 
 >lua
-    local mocha = require("try.palettes").get_palette "mocha"
+    local turtle = require("try.palettes").get_palette "turtle"
     bufferline.setup {
         highlights = require("try.groups.integrations.bufferline").get {
             styles = { "italic", "bold" },
@@ -339,10 +339,10 @@ explanations:
                 all = {
                     fill = { bg = "#000000" },
                 },
-                mocha = {
-                    background = { fg = mocha.text },
+                turtle = {
+                    background = { fg = turtle.text },
                 },
-                latte = {
+                beaver = {
                     background = { fg = "#000000" },
                 },
             },
@@ -460,8 +460,8 @@ Here are the defaults:
             },
         },
         sett = {
-            text = U.vary_color({ latte = latte.base }, clrs.surface0),
-            bkg = U.vary_color({ latte = latte.crust }, clrs.surface0),
+            text = U.vary_color({ beaver = beaver.base }, clrs.surface0),
+            bkg = U.vary_color({ beaver = beaver.crust }, clrs.surface0),
             diffs = clrs.mauve,
             extras = clrs.overlay1,
             curr_file = clrs.maroon,
@@ -586,7 +586,7 @@ Special ~
 `colored_indent_levels` enables char highlights per indent level. Follow the
 instructions here
 <https://github.com/lukas-reineke/indent-blankline.nvim#multiple-indent-colors>
-to set the latter up.
+to set the beaverr up.
 
 leap.nvim>lua
     leap = false
@@ -810,11 +810,11 @@ Here is how you can use them.
 
 >lua
     require('reactive').setup {
-      load = { 'try-mocha-cursor', 'try-mocha-cursorline' }
+      load = { 'try-turtle-cursor', 'try-turtle-cursorline' }
     }
 <
 
-To use another flavour just replace `mocha` with the one you want to use.
+To use another flavour just replace `turtle` with the one you want to use.
 
 render-markdown.nvim>lua
     render_markdown = true

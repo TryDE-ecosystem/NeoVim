@@ -36,9 +36,9 @@ local sett = {
 }
 
 if require("try").flavour == "beaver" then
-	local latte = require("try.palettes").get_palette "beaver"
-	sett.text = latte.base
-	sett.bkg = latte.crust
+	local beaver = require("try.palettes").get_palette "beaver"
+	sett.text = beaver.base
+	sett.bkg = beaver.crust
 end
 
 if require("beaver").options.transparent_background then sett.bkg = "NONE" end
