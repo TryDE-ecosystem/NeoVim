@@ -2,8 +2,8 @@ local M = {}
 
 local hsluv = require "try.lib.hsluv"
 
-M.bg = "#000000"
-M.fg = "#ffffff"
+M.bg = "#09111d"
+M.fg = "#7c94e9"
 M.day_brightness = 0.3
 
 ---@param hex_str string hexadecimal value of a color
