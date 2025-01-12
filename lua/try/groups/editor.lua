@@ -28,7 +28,8 @@ function M.get()
 		MsgSeparator = {}, -- Separator for scrolled messages, `msgsep` flag of 'display'
 		MoreMsg = { fg = C.blue }, -- |more-prompt|
 		NonText = { fg = C.overlay0 }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
-		Normal = { fg = C.text, bg = O.transparent_background and C.none or C.base }, -- normal text
+		-- Normal = { fg = C.text, bg = O.transparent_background and C.none or C.base }, -- normal text
+		Normal = { fg = C.text, bg = C.base },
 		NormalNC = {
 			fg = C.text,
 			bg = (O.transparent_background and O.dim_inactive.enabled and C.dim)
