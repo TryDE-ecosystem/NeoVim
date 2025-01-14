@@ -1,4 +1,5 @@
 return {
+	-- ACCENTS --
 	rosewater = "#f4dbd6",
 	flamingo = "#f0c6c6",
 	pink = "#f5bde6",
@@ -13,6 +14,10 @@ return {
 	sapphire = "#7dc4e4",
 	blue = "#8aadf4",
 	lavender = "#b7bdf8",
+	mantle = "#1e2030",
+	crust = "#181926",
+	
+	-- COLORS --
 	text = "#cad3f5",
 	subtext1 = "#b8c0e0",
 	subtext0 = "#a5adcb",
@@ -23,6 +28,4 @@ return {
 	surface1 = "#494d64",
 	surface0 = "#363a4f",
 	base = "#24273a",
-	mantle = "#1e2030",
-	crust = "#181926",
 }
