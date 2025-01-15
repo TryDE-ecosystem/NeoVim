@@ -21,7 +21,7 @@ return {
 	text = "#7c94e9",
 	subtext1 = "#2f3e75",
 	subtext0 = "#c8daf4",
-	overlay2 = "#8590a3",
+	overlay2 = "#ffffff",
 	overlay1 = "#2f3e75",
 	overlay0 = "#c8daf4",
 	surface2 = "#8590a3",
