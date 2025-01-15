@@ -18,7 +18,7 @@ return {
 	crust = "#11111b",
 
 	-- COLORS --
-	text = "#cdd6f4",
+	text = "#7c94e9",
 	subtext1 = "#bac2de",
 	subtext0 = "#a6adc8",
 	overlay2 = "#7bc427", -- comment
