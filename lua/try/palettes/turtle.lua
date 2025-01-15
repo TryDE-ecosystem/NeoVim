@@ -20,7 +20,7 @@ return {
 	-- COLORS --
 	text = "#7c94e9",
 	subtext1 = "#7bc427",
-	subtext0 = "#c8daf4",
+	subtext0 = "#7c94e9",
 	overlay2 = "#7bc427",
 	overlay1 = "#2f3e75",
 	overlay0 = "#7c94e9",
