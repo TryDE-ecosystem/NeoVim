@@ -21,10 +21,10 @@ return {
 	text = "#cdd6f4",
 	subtext1 = "#bac2de",
 	subtext0 = "#a6adc8",
-	overlay2 = "#8590a3",
-	overlay1 = "#7f849c",
-	overlay0 = "#6c7086",
-	surface2 = "#585b70",
+	overlay2 = "#7bc427", -- comment
+	overlay1 = "#2f3e75",
+	overlay0 = "#c8daf4",
+	surface2 = "#8590a3", -- comment
 	surface1 = "#45475a",
 	surface0 = "#313244",
 	base = "#09111d",
