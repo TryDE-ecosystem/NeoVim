@@ -19,12 +19,12 @@ return {
 
 	-- COLORS --
 	text = "#7c94e9",
-	subtext1 = "#bac2de",
-	subtext0 = "#a6adc8",
-	overlay2 = "#7bc427", -- comment
+	subtext1 = "#7bc427",
+	subtext0 = "#c8daf4",
+	overlay2 = "#7bc427",
 	overlay1 = "#2f3e75",
 	overlay0 = "#c8daf4",
-	surface2 = "#8590a3", -- comment
+	surface2 = "#8590a3",
 	surface1 = "#45475a",
 	surface0 = "#313244",
 	base = "#09111d",
