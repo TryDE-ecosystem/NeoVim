@@ -17,7 +17,7 @@ return {
 	mantle = "#181825",
 	crust = "#11111b",
 
-	-- COLORS --
+	-- COLORS (ALMOST DONE) --
 	text = "#7c94e9",
 	subtext1 = "#7bc427",
 	subtext0 = "#c8daf4",
@@ -25,7 +25,7 @@ return {
 	overlay1 = "#7bc427",
 	overlay0 = "#c8daf4",
 	surface2 = "#8590a3",
-	surface1 = "#45475a",
-	surface0 = "#313244",
+	surface1 = "#45475a", -- not done
+	surface0 = "#313244", -- not done
 	base = "#09111d",
 }
