@@ -14,8 +14,6 @@ return {
 	sapphire = "#74c7ec",
 	blue = "#89b4fa",
 	lavender = "#b4befe",
-	mantle = "#09111d",
-	crust = "#11111b",
 
 	-- COLORS (ALMOST DONE) --
 	text = "#7c94e9",
@@ -28,4 +26,6 @@ return {
 	surface1 = "#2f3e75", -- not done
 	surface0 = "#c8daf4", -- not done
 	base = "#09111d",
+	mantle = "#2f3e75",
+	crust = "#11111b",
 }
