@@ -27,5 +27,5 @@ return {
 	surface0 = "#c8daf4", -- not done
 	base = "#09111d",
 	mantle = "#0f1728",
-	crust = "#11111b",
+	crust = "#0f1728",
 }
