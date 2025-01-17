@@ -22,8 +22,8 @@ return {
 	overlay2 = "#777777",
 	overlay1 = "#7bc427",
 	overlay0 = "#7bc427", -- Collapsed code
-	surface2 = "#0f1728",
-	surface1 = "#7bc427",
+	surface2 = "#7bc427",
+	surface1 = "#0f1728",
 	surface0 = "#0f1728",
 	base = "#09111d", -- Background
 	mantle = "#0f1728",
