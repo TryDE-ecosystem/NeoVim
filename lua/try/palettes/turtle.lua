@@ -15,7 +15,7 @@ return {
 	blue = "#89b4fa",
 	lavender = "#b4befe",
 
-	-- COLORS (ALMOST DONE) --
+	-- COLORS (DONE) --
 	text = "#7c94e9",
 	subtext1 = "#7bc427",
 	subtext0 = "#c8daf4",
@@ -23,8 +23,8 @@ return {
 	overlay1 = "#7bc427",
 	overlay0 = "#c8daf4",
 	surface2 = "#0F1728",
-	surface1 = "#7bc427", -- not done
-	surface0 = "#c8daf4", -- not done
+	surface1 = "#7bc427", 
+	surface0 = "#c8daf4",
 	base = "#09111d",
 	mantle = "#0f1728",
 	crust = "#0f1728",
