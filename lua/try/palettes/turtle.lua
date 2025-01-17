@@ -22,9 +22,9 @@ return {
 	overlay2 = "#777777",
 	overlay1 = "#7bc427",
 	overlay0 = "#c8daf4",
-	surface2 = "#7bc427",
-	surface1 = "#c8daf4", -- not done
-	surface0 = "#0F1728", -- not done
+	surface2 = "#0F1728",
+	surface1 = "#7c94e9", -- not done
+	surface0 = "#0f1728", -- not done
 	base = "#09111d",
 	mantle = "#0f1728",
 	crust = "#0f1728",
