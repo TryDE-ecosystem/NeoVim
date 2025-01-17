@@ -16,14 +16,14 @@ return {
 	lavender = "#b4befe",
 
 	-- COLORS (DONE) --
-	text = "#7c94e9",
+	text = "#7c94e9", -- Default Cursor (If nothing/space/tab is current)
 	subtext1 = "#7bc427",
 	subtext0 = "#c8daf4",
 	overlay2 = "#777777",
 	overlay1 = "#7bc427",
 	overlay0 = "#7bc427", -- Collapsed code
-	surface2 = "#7bc427",
-	surface1 = "#7bc427", -- Cursor
+	surface2 = "#0f1728",
+	surface1 = "#7bc427",
 	surface0 = "#0f1728",
 	base = "#09111d", -- Background
 	mantle = "#0f1728",
