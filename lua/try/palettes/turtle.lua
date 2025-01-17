@@ -21,9 +21,9 @@ return {
 	subtext0 = "#c8daf4",
 	overlay2 = "#777777",
 	overlay1 = "#7bc427",
-	overlay0 = "#0f1728",
+	overlay0 = "#7bc427", -- Collapsed code
 	surface2 = "#7bc427",
-	surface1 = "#0f1728", -- Cursor/Collapsed code
+	surface1 = "#0f1728", -- Cursor
 	surface0 = "#0f1728",
 	base = "#09111d", -- Background
 	mantle = "#0f1728",
