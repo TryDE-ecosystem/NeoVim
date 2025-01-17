@@ -26,7 +26,6 @@ function M.apply(flavour)
 	theme.editor = require("try.groups.editor").get()
 	local final_integrations = {}
 
-	-- https://github.com/TryDE-ecosystem/nvim/pull/624
 	if type(O.integrations.dap) == "table" and O.integrations.dap.enable_ui ~= nil then
 		O.integrations.dap_ui = O.integrations.dap.enable_ui
 		O.integrations.dap.enable_ui = nil
