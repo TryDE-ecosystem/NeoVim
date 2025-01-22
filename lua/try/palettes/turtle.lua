@@ -17,15 +17,15 @@ return {
 
 	-- COLORS (DONE) --
 	text = "#7c94e9",
-	subtext1 = "#fb8787",
+	subtext1 = "#7bc274",
 	subtext0 = "#c8daf4",
 	overlay2 = "#c8daf4",
-	overlay1 = "#fb8787",
-	overlay0 = "#7bc274",
-	surface2 = "#fb8787",
-	surface1 = "#fb8787",
-	surface0 = "#7bc274",
+	overlay1 = "#7bc274",
+	overlay0 = "#fb8787",
+	surface2 = "#7bc274",
+	surface1 = "#7bc274",
+	surface0 = "#fb8787",
 	base = "#09111d",
-	mantle = "#7bc274",
-	crust = "#7bc274",
+	mantle = "#fb8787",
+	crust = "#fb8787",
 }
