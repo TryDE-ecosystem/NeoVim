@@ -8,7 +8,7 @@ return {
 	maroon = "#eba0ac",
 	peach = "#fab387",
 	yellow = "#f9e2af",
-	green = "#174626",
+	green = "#b2f8c9",
 	teal = "#94e2d5",
 	sky = "#89dceb",
 	sapphire = "#74c7ec",
