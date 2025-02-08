@@ -18,15 +18,15 @@ return {
 	
 	-- COLORS --
 	text = "#c8daf4",
-	subtext1 = "#c583e9", 
+	subtext1 = "#c4b4ed", 
 	subtext0 = "#bdbdbc",
 	overlay2 = "#bdbdbc",
-	overlay1 = "#c583e9",
-	overlay0 = "#dfb68c",
-	surface2 = "#c583e9",
-	surface1 = "#c583e9",
-	surface0 = "#dfb68c",
+	overlay1 = "#c4b4ed",
+	overlay0 = "#393838",
+	surface2 = "#c4b4ed",
+	surface1 = "#c4b4ed",
+	surface0 = "#393838",
 	base = "#333333",
-	mantle = "#dfb68c",
-	crust = "#dfb68c",
+	mantle = "#393838",
+	crust = "#393838",
 }
