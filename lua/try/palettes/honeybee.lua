@@ -14,18 +14,19 @@ return {
 	sapphire = "#85c1dc",
 	blue = "#8caaee",
 	lavender = "#babbf1",
-	mantle = "#292c3c",
-	crust = "#232634",
-
+	
 	-- COLORS --
-	text = "#c6d0f5",
-	subtext1 = "#b5bfe2",
-	subtext0 = "#a5adce",
-	overlay2 = "#949cbb",
-	overlay1 = "#838ba7",
-	overlay0 = "#737994",
-	surface2 = "#626880",
-	surface1 = "#51576d",
-	surface0 = "#414559",
-	base = "#303446",
+	text = "#000000",
+	subtext1 = "#7bc274",
+	subtext0 = "#7c94e9",
+	overlay2 = "#7c94e9",
+	overlay1 = "#7bc274",
+	overlay0 = "#c8daf4",
+	surface2 = "#7bc274",
+	surface1 = "#7bc274",
+	surface0 = "#c8daf4",
+	base = "#dee3e9",
+ mantle = "#c8daf4",
+	crust = "#c8daf4",
+
 }
