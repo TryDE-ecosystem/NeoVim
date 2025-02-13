@@ -44,7 +44,7 @@ function M.get()
 			bg = (O.transparent_background and vim.o.pumblend == 0) and C.none or U.darken(C.surface0, 0.8, C.crust),
 			fg = C.overlay2,
 		}, -- Popup menu: normal item.
-		PmenuSel = { bg = C.surface1, style = { "bold" } }, -- Popup menu: selected item.
+		PmenuSel = { bg = C.surface0, style = { "bold" } }, -- Popup menu: selected item.
 		PmenuSbar = { bg = C.surface1 }, -- Popup menu: scrollbar.
 		PmenuThumb = { bg = C.overlay0 }, -- Popup menu: Thumb of the scrollbar.
 		Question = { fg = C.blue }, -- |hit-enter| prompt and yes/no questions
@@ -65,8 +65,8 @@ function M.get()
 		TermCursor = { fg = C.base, bg = C.rosewater }, -- cursor in a focused terminal
 		TermCursorNC = { fg = C.base, bg = C.overlay2 }, -- cursor in unfocused terminals
 		Title = { fg = C.blue, style = { "bold" } }, -- titles for output from ":set all", ":autocmd" etc.
-		Visual = { bg = C.surface1, style = { "bold" } }, -- Visual mode selection
-		VisualNOS = { bg = C.surface1, style = { "bold" } }, -- Visual mode selection when vim is "Not Owning the Selection".
+		Visual = { bg = C.surface0, style = { "bold" } }, -- Visual mode selection
+		VisualNOS = { bg = C.surface0, style = { "bold" } }, -- Visual mode selection when vim is "Not Owning the Selection".
 		WarningMsg = { fg = C.yellow }, -- warning messages
 		Whitespace = { fg = C.surface1 }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
 		WildMenu = { bg = C.overlay0 }, -- current match in 'wildmenu' completion
